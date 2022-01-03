@@ -80,6 +80,46 @@ body {
     color: #2f2325;
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236,214, 196, 0.53);
+}
+
 .conteudo-principal-imagem {
     height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #fff2ef;
+    padding-top: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: #fff2ef;
+    margin-left: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: #fff2ef;
+    margin-left: 16px;
+    color: #ecd6c4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2ef;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
 }
